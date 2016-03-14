@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bar Code View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BarCodeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wbB-Wp-MNV">
+                                <rect key="frame" x="83" y="291" width="435" height="242"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wbB-Wp-MNV" secondAttribute="height" multiplier="435:242" id="QWw-F3-8Uj"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the barcode string" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XCR-99-Aks">
+                                <rect key="frame" x="182" y="41" width="237" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3sg-ak-AQF"/>
+                                    <constraint firstAttribute="width" constant="237" id="wkU-4S-wqa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qu-2O-keO">
+                                <rect key="frame" x="226" y="92" width="148" height="30"/>
+                                <color key="backgroundColor" red="0.40784313729999999" green="0.72549019609999998" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="148" id="Gra-iB-DbO"/>
+                                    <constraint firstAttribute="height" constant="30" id="Hyq-ai-dWf"/>
+                                </constraints>
+                                <state key="normal" title="Generate Barcode">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="generateBarcodeButonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bcP-YC-7YF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XCR-99-Aks" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="4vE-pO-Qnj"/>
+                            <constraint firstItem="8Qu-2O-keO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Ty-VX-X4J"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wbB-Wp-MNV" secondAttribute="trailing" constant="62" id="6Xx-oF-H49"/>
+                            <constraint firstItem="8Qu-2O-keO" firstAttribute="top" secondItem="XCR-99-Aks" secondAttribute="bottom" constant="21" id="GYb-Fg-npx"/>
+                            <constraint firstItem="wbB-Wp-MNV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HtC-kk-XeV"/>
+                            <constraint firstItem="wbB-Wp-MNV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="63" id="dHu-pP-k08"/>
+                            <constraint firstItem="XCR-99-Aks" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pxR-4w-F30"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wbB-Wp-MNV" secondAttribute="bottom" constant="67" id="s5Y-u7-Vd5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="barcodeImageView" destination="wbB-Wp-MNV" id="2sF-5s-b3h"/>
+                        <outlet property="barcodeTextField" destination="XCR-99-Aks" id="Fgv-vQ-HCL"/>
+                        <outlet property="generateBarcodeButton" destination="8Qu-2O-keO" id="Fvc-wa-NnD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228" y="318"/>
+        </scene>
+    </scenes>
+</document>
