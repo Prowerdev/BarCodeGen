@@ -8,24 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		424083D11C95E8CE00E0EB22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 424083D01C95E8CE00E0EB22 /* main.m */; };
-		424083D41C95E8CE00E0EB22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 424083D31C95E8CE00E0EB22 /* AppDelegate.m */; };
-		424083D71C95E8CE00E0EB22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424083D61C95E8CE00E0EB22 /* ViewController.m */; };
-		424083DA1C95E8CE00E0EB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424083D81C95E8CE00E0EB22 /* Main.storyboard */; };
 		424083DC1C95E8CE00E0EB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424083DB1C95E8CE00E0EB22 /* Assets.xcassets */; };
-		424083DF1C95E8CE00E0EB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424083DD1C95E8CE00E0EB22 /* LaunchScreen.storyboard */; };
+		42AB93881C96E25300C72042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AB93831C96E25300C72042 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		42AB93891C96E25300C72042 /* BarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AB93871C96E25300C72042 /* BarCodeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		42AB938D1C96E29300C72042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AB938B1C96E29300C72042 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		42AB938E1C96E29300C72042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AB938C1C96E29300C72042 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		42AB93931C96E36B00C72042 /* BarcodeGenerationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AB93921C96E36B00C72042 /* BarcodeGenerationClass.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		424083CC1C95E8CE00E0EB22 /* BarCodeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCodeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		424083D01C95E8CE00E0EB22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		424083D21C95E8CE00E0EB22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		424083D31C95E8CE00E0EB22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		424083D51C95E8CE00E0EB22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		424083D61C95E8CE00E0EB22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		424083D91C95E8CE00E0EB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		424083DB1C95E8CE00E0EB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		424083DE1C95E8CE00E0EB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		424083E01C95E8CE00E0EB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AB93821C96E25300C72042 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42AB93831C96E25300C72042 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42AB93861C96E25300C72042 /* BarCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarCodeViewController.h; sourceTree = "<group>"; };
+		42AB93871C96E25300C72042 /* BarCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarCodeViewController.m; sourceTree = "<group>"; };
+		42AB938B1C96E29300C72042 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42AB938C1C96E29300C72042 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		42AB93911C96E36B00C72042 /* BarcodeGenerationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeGenerationClass.h; sourceTree = "<group>"; };
+		42AB93921C96E36B00C72042 /* BarcodeGenerationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeGenerationClass.m; sourceTree = "<group>"; };
+		42AB93991C96E6EA00C72042 /* ConstantsEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantsEnums.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,12 @@
 		424083CE1C95E8CE00E0EB22 /* BarCodeGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				424083D21C95E8CE00E0EB22 /* AppDelegate.h */,
-				424083D31C95E8CE00E0EB22 /* AppDelegate.m */,
-				424083D51C95E8CE00E0EB22 /* ViewController.h */,
-				424083D61C95E8CE00E0EB22 /* ViewController.m */,
-				424083D81C95E8CE00E0EB22 /* Main.storyboard */,
+				42AB93951C96E63100C72042 /* ConstantsEnums */,
+				42AB938A1C96E29300C72042 /* StoryBoards */,
+				42AB93811C96E25300C72042 /* AppDelegate */,
+				42AB93841C96E25300C72042 /* ViewControllers */,
+				42AB938F1C96E33C00C72042 /* UtilityClasses */,
 				424083DB1C95E8CE00E0EB22 /* Assets.xcassets */,
-				424083DD1C95E8CE00E0EB22 /* LaunchScreen.storyboard */,
 				424083E01C95E8CE00E0EB22 /* Info.plist */,
 				424083CF1C95E8CE00E0EB22 /* Supporting Files */,
 			);
@@ -77,6 +80,66 @@
 				424083D01C95E8CE00E0EB22 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42AB93811C96E25300C72042 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				42AB93821C96E25300C72042 /* AppDelegate.h */,
+				42AB93831C96E25300C72042 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		42AB93841C96E25300C72042 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				42AB93851C96E25300C72042 /* BarCodeViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		42AB93851C96E25300C72042 /* BarCodeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				42AB93861C96E25300C72042 /* BarCodeViewController.h */,
+				42AB93871C96E25300C72042 /* BarCodeViewController.m */,
+			);
+			path = BarCodeViewController;
+			sourceTree = "<group>";
+		};
+		42AB938A1C96E29300C72042 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				42AB938B1C96E29300C72042 /* LaunchScreen.storyboard */,
+				42AB938C1C96E29300C72042 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		42AB938F1C96E33C00C72042 /* UtilityClasses */ = {
+			isa = PBXGroup;
+			children = (
+				42AB93901C96E33C00C72042 /* BarcodeGenerationClass */,
+			);
+			path = UtilityClasses;
+			sourceTree = "<group>";
+		};
+		42AB93901C96E33C00C72042 /* BarcodeGenerationClass */ = {
+			isa = PBXGroup;
+			children = (
+				42AB93911C96E36B00C72042 /* BarcodeGenerationClass.h */,
+				42AB93921C96E36B00C72042 /* BarcodeGenerationClass.m */,
+			);
+			path = BarcodeGenerationClass;
+			sourceTree = "<group>";
+		};
+		42AB93951C96E63100C72042 /* ConstantsEnums */ = {
+			isa = PBXGroup;
+			children = (
+				42AB93991C96E6EA00C72042 /* ConstantsEnums.h */,
+			);
+			path = ConstantsEnums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +199,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				424083DF1C95E8CE00E0EB22 /* LaunchScreen.storyboard in Resources */,
+				42AB938E1C96E29300C72042 /* Main.storyboard in Resources */,
 				424083DC1C95E8CE00E0EB22 /* Assets.xcassets in Resources */,
-				424083DA1C95E8CE00E0EB22 /* Main.storyboard in Resources */,
+				42AB938D1C96E29300C72042 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				424083D71C95E8CE00E0EB22 /* ViewController.m in Sources */,
-				424083D41C95E8CE00E0EB22 /* AppDelegate.m in Sources */,
+				42AB93881C96E25300C72042 /* AppDelegate.m in Sources */,
+				42AB93931C96E36B00C72042 /* BarcodeGenerationClass.m in Sources */,
+				42AB93891C96E25300C72042 /* BarCodeViewController.m in Sources */,
 				424083D11C95E8CE00E0EB22 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		424083D81C95E8CE00E0EB22 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				424083D91C95E8CE00E0EB22 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		424083DD1C95E8CE00E0EB22 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				424083DE1C95E8CE00E0EB22 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		424083E11C95E8CE00E0EB22 /* Debug */ = {
@@ -302,6 +347,7 @@
 				424083E51C95E8CE00E0EB22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
